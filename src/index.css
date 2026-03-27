@@ -1,0 +1,198 @@
+/* RESET */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0f172a;
+}
+
+/* ================= LOGIN ================= */
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background-color: #1e293b;
+  padding: 40px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.login-title {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.login-error {
+  color: #f87171;
+  margin-bottom: 10px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-input {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.login-button {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-button:hover {
+  background-color: #2563eb;
+}
+
+/* ================= DASHBOARD ================= */
+
+.dashboard-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: flex-start;   /* align to top */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.dashboard-card {
+  width: 100%;
+  max-width: 1100px;
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 14px;
+  color: white;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+}
+
+/* HEADER */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout-btn {
+  background: #ef4444;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* CREATE SECTIONS */
+.create-section {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* INPUTS */
+.input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+/* BUTTONS */
+.primary-btn {
+  background: #3b82f6;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.primary-btn:hover {
+  background: #2563eb;
+}
+
+/* TASK SECTION */
+.task-section {
+  margin-top: 30px;
+}
+
+/* TASK CARD */
+.task-card {
+  background: #334155;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.status {
+  margin-top: 5px;
+}
+
+/* ACTION BUTTONS */
+.actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background: #64748b;
+  cursor: not-allowed;
+}
+
+.complete-btn {
+  background: #22c55e;
+  border: none;
+  padding: 6px 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #ef4444;
+  border: none;
+  padding: 6px 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
